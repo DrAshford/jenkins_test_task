@@ -4,7 +4,7 @@ pipeline {
         stages {
                 stage('Jenkins-build-step') {
                         steps {
-                                sh 'echo "Hello World!" > textfile.txt'
+                                sh 'echo "Hello another one!" > textfile.txt'
                         }
                 }
         }
